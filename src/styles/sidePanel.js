@@ -13,7 +13,8 @@ export const Styles = makeStyles(theme => ({
         fontSize: 14,
         lineHeight: 1.6,
         letterSpacing: "0.0075em",
-        fontWeight: 400
+        fontWeight: 500,
+        margin: "10px 0"
     }
 }))
 

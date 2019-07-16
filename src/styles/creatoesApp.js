@@ -6,16 +6,20 @@ export const Styles = makeStyles(theme => ({
         fontFamily: "Open Sans",
         position: "absolute",
         width: "100%",
-        zIndex: 1
+        zIndex: 1,
+        boxSizing: "border-box"
     },
     body: {
         position: "absolute",
         width: "100%",
-        top: "50px",
+        top: "48px",
         height: "95%",
         boxSizing: "border-box",
         display: "flex",
         zIndex: 0
+    },
+    appBar: {
+        backgroundColor: "#3f9fb5"
     }
 }))
 
