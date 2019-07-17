@@ -37,7 +37,7 @@ const Component = props => (
     <Fragment>
         <Header {...props} />
         <Body {...props}>
-            <SidePanel {...props} />
+            <SidePanel />
             <Playground />
         </Body>
     </Fragment>
